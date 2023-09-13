@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Airpods MK | Products</title>
+  <link rel="stylesheet" type="text/css" href="procuts.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/png" href="img/logo (1).png"/>
+</head>
+<body style="background-color: rgb(123, 123, 123);">
+  <header>
+    <nav>
+      <img style="width: 65px; height: 60px; margin-top: 2px;" src="img/logo (1).png">
+      <ul style=" margin-left: 350px; margin-top: -40px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#" class="btn-product" data-product="airpods_pro">Airpods 2 Pro</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+
+  <section class="hero-text" id="featured-products">
+    <h2 class="" >Преостанати производи</h2>
+    <div style="background-color: rgb(79, 79, 79);" class="product-card">
+      <img style="width: 250px; height: 200px; margin-top: 8px; margin-left: 8px; margin-bottom: 8px; margin-right: 100px; margin-right: 1000px;"  src="img/AirPods2Pro.png" alt="Airpods Pro">
+      <div style="background-color: rgb(79, 79, 79);"  class="product-info">
+        <h3>Airpods 2 Pro</h3>
+        <p style="color: white;">6900 MKD</p>
+        <button class="btn btn-quick-view" data-product="airpods_pro">Нарачај</button>
+      </div>
+    </div>
+    <!-- Add more product cards here -->
+  </section>
+
+  <section style="background-color: rgb(123, 123, 123);" id="about-section">
+    <div class="section-header">
+      <h2>About Us</h2>
+    </div>
+    <div class="section-content">
+      <p>Држиме Оргинал AirPods по ефтина цена. Донесени од Америка. </p>
+    </div>
+  </section>
+
+  <section style="background-color: rgb(123, 123, 123);" id="contact-section">
+    <div class="section-header">
+      <h2>Contact Us</h2>
+    </div>
+    <div class="section-content">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn btn-main">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <div id="modal">
+    <div id="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-product"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2022 Airpods Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="product.js"></script>
+</body>
+</html>
